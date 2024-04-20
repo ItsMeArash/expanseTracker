@@ -22,4 +22,4 @@ const server = () => {
     })
 }
 
-server()
+server();
