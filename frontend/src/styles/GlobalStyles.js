@@ -17,4 +17,13 @@ export const GlobalStyles = createGlobalStyle`
     --color-accent: #F56692;
     --color-delete: #FF0000;
   }
+  
+  body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    overflow: hidden;
+    //font-size: clamp();
+  }
 `
