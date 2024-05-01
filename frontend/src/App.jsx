@@ -7,9 +7,13 @@ import {useMemo, useState} from "react";
 import Dashboard from "./Components/Dashboard/Dashboard.jsx";
 import Incomes from "./Components/Incomes/Incomes.jsx";
 import Expenses from "./Components/Expenses/Expenses.jsx";
+// import {useGlobalContext} from "./context/GlobalContext.jsx";
 
 const App = () => {
     const [active, setActive] = useState(1);
+
+    // const global = useGlobalContext()
+    // console.log(global)
 
     const orbMemo = useMemo(() => {
         return <Orb />
